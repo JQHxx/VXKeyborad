@@ -399,12 +399,17 @@
 - (void)deleteBackward:(NSString *)text appendText:(NSString *)appendText
 {
     if (IsTextContainFace(text)) { // 如果最后一个是表情
-        
+        NSUInteger location = self.inputTextView.selectedRange.location;
+        NSString *current = [text substringToIndex:location];
+        self.inputTextView.text = [current stringByAppendingString:appendText];
+        self.inputTextView.selectedRange = NSMakeRange(current.length, 0);
+        /*
         NSRange startRang = [text rangeOfString:@"[" options:NSBackwardsSearch];
         NSString *current = [text substringToIndex:startRang.location];
          self.inputTextView.text = [current stringByAppendingString:appendText];
         //                [self.chatToolBar setTextViewContent:[current stringByAppendingString:appendText]];
         self.inputTextView.selectedRange = NSMakeRange(current.length, 0);
+        */
         
     }else { // 如果最后一个系统键盘输入的文字
         
