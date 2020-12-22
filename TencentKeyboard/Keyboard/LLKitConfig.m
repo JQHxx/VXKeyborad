@@ -81,6 +81,7 @@
         [self addFaceToCache:TUIKitFace(@"del_normal")];
     }
 
+    /*
     //tt group 自定义表情暂时用不上 注释掉
     NSMutableArray *ttFaces = [NSMutableArray array];
     for (int i = 0; i <= 16; i++) {
@@ -103,6 +104,7 @@
         [self addFaceToCache:ttGroup.menuPath];
         [faceGroups addObject:ttGroup];
     }
+     */
 
     _faceGroups = faceGroups;
 }
