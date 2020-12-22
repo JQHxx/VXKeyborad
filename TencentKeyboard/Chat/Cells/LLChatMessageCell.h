@@ -7,10 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LLChatMessageData.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LLChatMessageCell : UITableViewCell
+
+@property (readonly) LLChatMessageData *data;
+@property UIColor *colorWhenTouched;
+@property BOOL changeColorWhenTouched;
+
+- (void)fillWithData:(LLChatMessageData *)data;
 
 @end
 

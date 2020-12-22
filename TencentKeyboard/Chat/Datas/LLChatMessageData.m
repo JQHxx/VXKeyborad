@@ -10,4 +10,8 @@
 
 @implementation LLChatMessageData
 
+- (CGFloat)heightOfWidth:(CGFloat)width {
+    return 0;
+}
+
 @end
