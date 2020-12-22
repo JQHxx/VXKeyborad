@@ -37,6 +37,12 @@
 		A078E3BC2473C30F0025CE47 /* TUIKitFace.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A078E3BA2473C30F0025CE47 /* TUIKitFace.bundle */; };
 		A0BCAD972591A6B400334B7C /* LLInputController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCAD952591A6B400334B7C /* LLInputController.m */; };
 		A0BCADA72591C68F00334B7C /* MessageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADA62591C68F00334B7C /* MessageUtil.m */; };
+		A0BCADB12591CAC700334B7C /* LLChatMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADB02591CAC700334B7C /* LLChatMessageCell.m */; };
+		A0BCADBB2591CB0800334B7C /* LLChatMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADBA2591CB0800334B7C /* LLChatMessageData.m */; };
+		A0BCADC42591CB2D00334B7C /* LLChatMessageTextData.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADC32591CB2D00334B7C /* LLChatMessageTextData.m */; };
+		A0BCADCA2591CB3D00334B7C /* LLChatMessageImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADC92591CB3D00334B7C /* LLChatMessageImageData.m */; };
+		A0BCADD32591CB7800334B7C /* LLChatMessageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADD22591CB7800334B7C /* LLChatMessageTextCell.m */; };
+		A0BCADDC2591CB8800334B7C /* LLChatMessageImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADDB2591CB8800334B7C /* LLChatMessageImageCell.m */; };
 		CFCCFC251E9367084D5F2E88 /* Pods_TencentKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBC5515A807B19CD804C577 /* Pods_TencentKeyboard.framework */; };
 		D1747DC255E08A099B38F652 /* Pods_TencentKeyboard_TencentKeyboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B638BE602F3F2309F84B110E /* Pods_TencentKeyboard_TencentKeyboardUITests.framework */; };
 		FA886410C21D8F0361F50200 /* Pods_TencentKeyboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA373B565FE47B442ACD5BF /* Pods_TencentKeyboardTests.framework */; };
@@ -125,6 +131,18 @@
 		A0BCAD962591A6B400334B7C /* LLInputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLInputController.h; sourceTree = "<group>"; };
 		A0BCADA52591C68F00334B7C /* MessageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageUtil.h; sourceTree = "<group>"; };
 		A0BCADA62591C68F00334B7C /* MessageUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageUtil.m; sourceTree = "<group>"; };
+		A0BCADAF2591CAC700334B7C /* LLChatMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLChatMessageCell.h; sourceTree = "<group>"; };
+		A0BCADB02591CAC700334B7C /* LLChatMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLChatMessageCell.m; sourceTree = "<group>"; };
+		A0BCADB92591CB0800334B7C /* LLChatMessageData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLChatMessageData.h; sourceTree = "<group>"; };
+		A0BCADBA2591CB0800334B7C /* LLChatMessageData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLChatMessageData.m; sourceTree = "<group>"; };
+		A0BCADC22591CB2D00334B7C /* LLChatMessageTextData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLChatMessageTextData.h; sourceTree = "<group>"; };
+		A0BCADC32591CB2D00334B7C /* LLChatMessageTextData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLChatMessageTextData.m; sourceTree = "<group>"; };
+		A0BCADC82591CB3D00334B7C /* LLChatMessageImageData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLChatMessageImageData.h; sourceTree = "<group>"; };
+		A0BCADC92591CB3D00334B7C /* LLChatMessageImageData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLChatMessageImageData.m; sourceTree = "<group>"; };
+		A0BCADD12591CB7800334B7C /* LLChatMessageTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLChatMessageTextCell.h; sourceTree = "<group>"; };
+		A0BCADD22591CB7800334B7C /* LLChatMessageTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLChatMessageTextCell.m; sourceTree = "<group>"; };
+		A0BCADDA2591CB8800334B7C /* LLChatMessageImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLChatMessageImageCell.h; sourceTree = "<group>"; };
+		A0BCADDB2591CB8800334B7C /* LLChatMessageImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLChatMessageImageCell.m; sourceTree = "<group>"; };
 		B638BE602F3F2309F84B110E /* Pods_TencentKeyboard_TencentKeyboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TencentKeyboard_TencentKeyboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A934B5CD66B1671F249EC9 /* Pods-TencentKeyboard-TencentKeyboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentKeyboard-TencentKeyboardUITests.release.xcconfig"; path = "Target Support Files/Pods-TencentKeyboard-TencentKeyboardUITests/Pods-TencentKeyboard-TencentKeyboardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C7A1798DD2A5347AB22C9377 /* Pods-TencentKeyboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentKeyboardTests.debug.xcconfig"; path = "Target Support Files/Pods-TencentKeyboardTests/Pods-TencentKeyboardTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -328,6 +346,8 @@
 		A0BCAD8E2591A68900334B7C /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				A0BCADB82591CAE100334B7C /* Datas */,
+				A0BCADAE2591CA9700334B7C /* Cells */,
 				A0BCADA42591C67800334B7C /* Utils */,
 				A0BCAD962591A6B400334B7C /* LLInputController.h */,
 				A0BCAD952591A6B400334B7C /* LLInputController.m */,
@@ -342,6 +362,32 @@
 				A0BCADA62591C68F00334B7C /* MessageUtil.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		A0BCADAE2591CA9700334B7C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A0BCADAF2591CAC700334B7C /* LLChatMessageCell.h */,
+				A0BCADB02591CAC700334B7C /* LLChatMessageCell.m */,
+				A0BCADD12591CB7800334B7C /* LLChatMessageTextCell.h */,
+				A0BCADD22591CB7800334B7C /* LLChatMessageTextCell.m */,
+				A0BCADDA2591CB8800334B7C /* LLChatMessageImageCell.h */,
+				A0BCADDB2591CB8800334B7C /* LLChatMessageImageCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A0BCADB82591CAE100334B7C /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				A0BCADB92591CB0800334B7C /* LLChatMessageData.h */,
+				A0BCADBA2591CB0800334B7C /* LLChatMessageData.m */,
+				A0BCADC22591CB2D00334B7C /* LLChatMessageTextData.h */,
+				A0BCADC32591CB2D00334B7C /* LLChatMessageTextData.m */,
+				A0BCADC82591CB3D00334B7C /* LLChatMessageImageData.h */,
+				A0BCADC92591CB3D00334B7C /* LLChatMessageImageData.m */,
+			);
+			path = Datas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -586,23 +632,29 @@
 				A078E39A2473BD4B0025CE47 /* LLInputMoreCellData.m in Sources */,
 				A078E3A92473BE5D0025CE47 /* UIImage+TUIKIT.m in Sources */,
 				A078E3B52473BFD50025CE47 /* LLRecordView.m in Sources */,
+				A0BCADDC2591CB8800334B7C /* LLChatMessageImageCell.m in Sources */,
 				A0BCAD972591A6B400334B7C /* LLInputController.m in Sources */,
 				A078E3902473BCED0025CE47 /* LLMoreView.m in Sources */,
+				A0BCADBB2591CB0800334B7C /* LLChatMessageData.m in Sources */,
 				A078E38A2473BCCA0025CE47 /* LLFaceView.m in Sources */,
 				A078E3542473BC040025CE47 /* ViewController.m in Sources */,
 				A078E3AC2473BE8F0025CE47 /* LLImageCache.m in Sources */,
 				A078E3942473BD1D0025CE47 /* LLMenuCell.m in Sources */,
 				A00BBCE12474BAEB00FC253F /* EMVoiceConverter.mm in Sources */,
 				A078E3B22473BF0F0025CE47 /* LLHelper.m in Sources */,
+				A0BCADD32591CB7800334B7C /* LLChatMessageTextCell.m in Sources */,
 				A078E38D2473BCDB0025CE47 /* LLMenuView.m in Sources */,
+				A0BCADC42591CB2D00334B7C /* LLChatMessageTextData.m in Sources */,
 				A078E3A62473BDC20025CE47 /* LLKitConfig.m in Sources */,
 				A00BBCE02474BAEB00FC253F /* amrFileCodec.mm in Sources */,
 				A078E34E2473BC040025CE47 /* AppDelegate.m in Sources */,
+				A0BCADB12591CAC700334B7C /* LLChatMessageCell.m in Sources */,
 				A078E3A32473BDAB0025CE47 /* LLFaceCell.m in Sources */,
 				A078E3A02473BD8F0025CE47 /* LLResponderTextView.m in Sources */,
 				A0BCADA72591C68F00334B7C /* MessageUtil.m in Sources */,
 				A078E39D2473BD790025CE47 /* LLUIKit.m in Sources */,
 				A078E3872473BCAD0025CE47 /* LLInputBar.m in Sources */,
+				A0BCADCA2591CB3D00334B7C /* LLChatMessageImageData.m in Sources */,
 				A00BBCDF2474BAEB00FC253F /* wav.mm in Sources */,
 				A078E35F2473BC080025CE47 /* main.m in Sources */,
 			);
