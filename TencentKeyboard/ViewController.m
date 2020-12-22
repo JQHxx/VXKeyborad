@@ -61,7 +61,6 @@
         int duration = (int)CMTimeGetSeconds(audioAsset.duration);
         int length = (int)[[[NSFileManager defaultManager] attributesOfItemAtPath:[audioAsset.URL path] error:nil] fileSize];
         NSLog(@"发送的语音消息 语音长度====%d 长度== %d",duration,length);
-        
         return;
     }
 }

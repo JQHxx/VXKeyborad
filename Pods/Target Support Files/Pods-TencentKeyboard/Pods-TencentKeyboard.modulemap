@@ -1,0 +1,6 @@
+framework module Pods_TencentKeyboard {
+  umbrella header "Pods-TencentKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
