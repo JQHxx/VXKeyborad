@@ -6,7 +6,7 @@ target 'TencentKeyboard' do
 
   pod 'YYText', '~> 1.0.7'
   pod 'SDWebImage'
-  # Pods for TencentKeyboard
+  pod 'Masonry'
 
   target 'TencentKeyboardTests' do
     inherit! :search_paths

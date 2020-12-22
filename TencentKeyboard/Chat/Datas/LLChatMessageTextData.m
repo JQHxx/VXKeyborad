@@ -7,7 +7,17 @@
 //
 
 #import "LLChatMessageTextData.h"
+#import "MessageUtil.h"
 
 @implementation LLChatMessageTextData
+
+#pragma mark - Setter & Getter
+- (NSAttributedString *)attributedString
+{
+    if (!_attributedString) {
+        _attributedString = [MessageUtil formatMessageString:self.content textFont:[UIFont systemFontOfSize:14]];
+    }
+    return _attributedString;
+}
 
 @end
