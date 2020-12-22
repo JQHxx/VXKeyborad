@@ -19,22 +19,16 @@
 		A078E35F2473BC080025CE47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E35E2473BC080025CE47 /* main.m */; };
 		A078E3692473BC080025CE47 /* TencentKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E3682473BC080025CE47 /* TencentKeyboardTests.m */; };
 		A078E3742473BC080025CE47 /* TencentKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E3732473BC080025CE47 /* TencentKeyboardUITests.m */; };
-		A078E3872473BCAD0025CE47 /* LLInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E3862473BCAD0025CE47 /* LLInputBar.m */; };
 		A078E38A2473BCCA0025CE47 /* LLFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E3892473BCCA0025CE47 /* LLFaceView.m */; };
 		A078E38D2473BCDB0025CE47 /* LLMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E38C2473BCDB0025CE47 /* LLMenuView.m */; };
 		A078E3902473BCED0025CE47 /* LLMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E38E2473BCED0025CE47 /* LLMoreView.m */; };
 		A078E3942473BD1D0025CE47 /* LLMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E3922473BD1D0025CE47 /* LLMenuCell.m */; };
 		A078E39A2473BD4B0025CE47 /* LLInputMoreCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E3982473BD4A0025CE47 /* LLInputMoreCellData.m */; };
 		A078E39D2473BD790025CE47 /* LLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E39B2473BD790025CE47 /* LLUIKit.m */; };
-		A078E3A02473BD8F0025CE47 /* LLResponderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E39F2473BD8E0025CE47 /* LLResponderTextView.m */; };
 		A078E3A32473BDAB0025CE47 /* LLFaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E3A22473BDAA0025CE47 /* LLFaceCell.m */; };
 		A078E3A62473BDC20025CE47 /* LLKitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E3A42473BDC20025CE47 /* LLKitConfig.m */; };
 		A078E3A92473BE5D0025CE47 /* UIImage+TUIKIT.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E3A82473BE5D0025CE47 /* UIImage+TUIKIT.m */; };
-		A078E3AC2473BE8F0025CE47 /* LLImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E3AB2473BE8F0025CE47 /* LLImageCache.m */; };
-		A078E3B22473BF0F0025CE47 /* LLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E3B12473BF0F0025CE47 /* LLHelper.m */; };
 		A078E3B52473BFD50025CE47 /* LLRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = A078E3B42473BFD50025CE47 /* LLRecordView.m */; };
-		A078E3BB2473C30F0025CE47 /* TUIKitResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A078E3B92473C30F0025CE47 /* TUIKitResource.bundle */; };
-		A078E3BC2473C30F0025CE47 /* TUIKitFace.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A078E3BA2473C30F0025CE47 /* TUIKitFace.bundle */; };
 		A0BCAD972591A6B400334B7C /* LLInputController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCAD952591A6B400334B7C /* LLInputController.m */; };
 		A0BCADA72591C68F00334B7C /* MessageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADA62591C68F00334B7C /* MessageUtil.m */; };
 		A0BCADB12591CAC700334B7C /* LLChatMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADB02591CAC700334B7C /* LLChatMessageCell.m */; };
@@ -43,6 +37,12 @@
 		A0BCADCA2591CB3D00334B7C /* LLChatMessageImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADC92591CB3D00334B7C /* LLChatMessageImageData.m */; };
 		A0BCADD32591CB7800334B7C /* LLChatMessageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADD22591CB7800334B7C /* LLChatMessageTextCell.m */; };
 		A0BCADDC2591CB8800334B7C /* LLChatMessageImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADDB2591CB8800334B7C /* LLChatMessageImageCell.m */; };
+		A0BCADE62591CC2500334B7C /* TUIKitFace.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0BCADE42591CC2500334B7C /* TUIKitFace.bundle */; };
+		A0BCADE72591CC2500334B7C /* TUIKitResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0BCADE52591CC2500334B7C /* TUIKitResource.bundle */; };
+		A0BCADF32591CC7700334B7C /* LLInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADF02591CC7700334B7C /* LLInputBar.m */; };
+		A0BCADF42591CC7700334B7C /* LLResponderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADF22591CC7700334B7C /* LLResponderTextView.m */; };
+		A0BCADFF2591CD8100334B7C /* LLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCADFE2591CD8100334B7C /* LLHelper.m */; };
+		A0BCAE082591CDBA00334B7C /* LLImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BCAE062591CDBA00334B7C /* LLImageCache.m */; };
 		CFCCFC251E9367084D5F2E88 /* Pods_TencentKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBC5515A807B19CD804C577 /* Pods_TencentKeyboard.framework */; };
 		D1747DC255E08A099B38F652 /* Pods_TencentKeyboard_TencentKeyboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B638BE602F3F2309F84B110E /* Pods_TencentKeyboard_TencentKeyboardUITests.framework */; };
 		FA886410C21D8F0361F50200 /* Pods_TencentKeyboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA373B565FE47B442ACD5BF /* Pods_TencentKeyboardTests.framework */; };
@@ -96,37 +96,26 @@
 		A078E36F2473BC080025CE47 /* TencentKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TencentKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A078E3732473BC080025CE47 /* TencentKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TencentKeyboardUITests.m; sourceTree = "<group>"; };
 		A078E3752473BC080025CE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A078E3852473BCAD0025CE47 /* LLInputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLInputBar.h; sourceTree = "<group>"; };
-		A078E3862473BCAD0025CE47 /* LLInputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLInputBar.m; sourceTree = "<group>"; };
 		A078E3882473BCCA0025CE47 /* LLFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFaceView.h; sourceTree = "<group>"; };
 		A078E3892473BCCA0025CE47 /* LLFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFaceView.m; sourceTree = "<group>"; };
 		A078E38B2473BCDB0025CE47 /* LLMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMenuView.h; sourceTree = "<group>"; };
 		A078E38C2473BCDB0025CE47 /* LLMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMenuView.m; sourceTree = "<group>"; };
 		A078E38E2473BCED0025CE47 /* LLMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMoreView.m; sourceTree = "<group>"; };
 		A078E38F2473BCED0025CE47 /* LLMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMoreView.h; sourceTree = "<group>"; };
-		A078E3912473BD070025CE47 /* THeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THeader.h; sourceTree = "<group>"; };
 		A078E3922473BD1D0025CE47 /* LLMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMenuCell.m; sourceTree = "<group>"; };
 		A078E3932473BD1D0025CE47 /* LLMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMenuCell.h; sourceTree = "<group>"; };
 		A078E3982473BD4A0025CE47 /* LLInputMoreCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLInputMoreCellData.m; sourceTree = "<group>"; };
 		A078E3992473BD4A0025CE47 /* LLInputMoreCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLInputMoreCellData.h; sourceTree = "<group>"; };
 		A078E39B2473BD790025CE47 /* LLUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUIKit.m; sourceTree = "<group>"; };
 		A078E39C2473BD790025CE47 /* LLUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUIKit.h; sourceTree = "<group>"; };
-		A078E39E2473BD8E0025CE47 /* LLResponderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLResponderTextView.h; sourceTree = "<group>"; };
-		A078E39F2473BD8E0025CE47 /* LLResponderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLResponderTextView.m; sourceTree = "<group>"; };
 		A078E3A12473BDAA0025CE47 /* LLFaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFaceCell.h; sourceTree = "<group>"; };
 		A078E3A22473BDAA0025CE47 /* LLFaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFaceCell.m; sourceTree = "<group>"; };
 		A078E3A42473BDC20025CE47 /* LLKitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLKitConfig.m; sourceTree = "<group>"; };
 		A078E3A52473BDC20025CE47 /* LLKitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLKitConfig.h; sourceTree = "<group>"; };
 		A078E3A72473BE5C0025CE47 /* UIImage+TUIKIT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TUIKIT.h"; sourceTree = "<group>"; };
 		A078E3A82473BE5D0025CE47 /* UIImage+TUIKIT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TUIKIT.m"; sourceTree = "<group>"; };
-		A078E3AA2473BE8F0025CE47 /* LLImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImageCache.h; sourceTree = "<group>"; };
-		A078E3AB2473BE8F0025CE47 /* LLImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImageCache.m; sourceTree = "<group>"; };
-		A078E3B02473BF0F0025CE47 /* LLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLHelper.h; sourceTree = "<group>"; };
-		A078E3B12473BF0F0025CE47 /* LLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLHelper.m; sourceTree = "<group>"; };
 		A078E3B32473BFD50025CE47 /* LLRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRecordView.h; sourceTree = "<group>"; };
 		A078E3B42473BFD50025CE47 /* LLRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRecordView.m; sourceTree = "<group>"; };
-		A078E3B92473C30F0025CE47 /* TUIKitResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TUIKitResource.bundle; sourceTree = "<group>"; };
-		A078E3BA2473C30F0025CE47 /* TUIKitFace.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TUIKitFace.bundle; sourceTree = "<group>"; };
 		A0BCAD952591A6B400334B7C /* LLInputController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLInputController.m; sourceTree = "<group>"; };
 		A0BCAD962591A6B400334B7C /* LLInputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLInputController.h; sourceTree = "<group>"; };
 		A0BCADA52591C68F00334B7C /* MessageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageUtil.h; sourceTree = "<group>"; };
@@ -143,6 +132,17 @@
 		A0BCADD22591CB7800334B7C /* LLChatMessageTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLChatMessageTextCell.m; sourceTree = "<group>"; };
 		A0BCADDA2591CB8800334B7C /* LLChatMessageImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLChatMessageImageCell.h; sourceTree = "<group>"; };
 		A0BCADDB2591CB8800334B7C /* LLChatMessageImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLChatMessageImageCell.m; sourceTree = "<group>"; };
+		A0BCADE42591CC2500334B7C /* TUIKitFace.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TUIKitFace.bundle; sourceTree = "<group>"; };
+		A0BCADE52591CC2500334B7C /* TUIKitResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TUIKitResource.bundle; sourceTree = "<group>"; };
+		A0BCADEF2591CC7700334B7C /* LLResponderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLResponderTextView.h; sourceTree = "<group>"; };
+		A0BCADF02591CC7700334B7C /* LLInputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLInputBar.m; sourceTree = "<group>"; };
+		A0BCADF12591CC7700334B7C /* LLInputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLInputBar.h; sourceTree = "<group>"; };
+		A0BCADF22591CC7700334B7C /* LLResponderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLResponderTextView.m; sourceTree = "<group>"; };
+		A0BCADF92591CD3000334B7C /* THeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THeader.h; sourceTree = "<group>"; };
+		A0BCADFD2591CD8100334B7C /* LLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLHelper.h; sourceTree = "<group>"; };
+		A0BCADFE2591CD8100334B7C /* LLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLHelper.m; sourceTree = "<group>"; };
+		A0BCAE062591CDBA00334B7C /* LLImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImageCache.m; sourceTree = "<group>"; };
+		A0BCAE072591CDBA00334B7C /* LLImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImageCache.h; sourceTree = "<group>"; };
 		B638BE602F3F2309F84B110E /* Pods_TencentKeyboard_TencentKeyboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TencentKeyboard_TencentKeyboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A934B5CD66B1671F249EC9 /* Pods-TencentKeyboard-TencentKeyboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentKeyboard-TencentKeyboardUITests.release.xcconfig"; path = "Target Support Files/Pods-TencentKeyboard-TencentKeyboardUITests/Pods-TencentKeyboard-TencentKeyboardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C7A1798DD2A5347AB22C9377 /* Pods-TencentKeyboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentKeyboardTests.debug.xcconfig"; path = "Target Support Files/Pods-TencentKeyboardTests/Pods-TencentKeyboardTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -307,38 +307,30 @@
 		A078E3812473BC8D0025CE47 /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
+				A0BCADF82591CD1600334B7C /* Common */,
+				A0BCADEB2591CC4800334B7C /* Input */,
+				A0BCADE02591CC0800334B7C /* Resource */,
 				A00BBCCD2474BAEB00FC253F /* VoiceConvert */,
-				A078E3BA2473C30F0025CE47 /* TUIKitFace.bundle */,
-				A078E3B92473C30F0025CE47 /* TUIKitResource.bundle */,
 				A078E3B32473BFD50025CE47 /* LLRecordView.h */,
 				A078E3B42473BFD50025CE47 /* LLRecordView.m */,
-				A078E3B02473BF0F0025CE47 /* LLHelper.h */,
-				A078E3B12473BF0F0025CE47 /* LLHelper.m */,
-				A078E3AA2473BE8F0025CE47 /* LLImageCache.h */,
-				A078E3AB2473BE8F0025CE47 /* LLImageCache.m */,
 				A078E3A72473BE5C0025CE47 /* UIImage+TUIKIT.h */,
 				A078E3A82473BE5D0025CE47 /* UIImage+TUIKIT.m */,
 				A078E3A52473BDC20025CE47 /* LLKitConfig.h */,
 				A078E3A42473BDC20025CE47 /* LLKitConfig.m */,
 				A078E3A12473BDAA0025CE47 /* LLFaceCell.h */,
 				A078E3A22473BDAA0025CE47 /* LLFaceCell.m */,
-				A078E39E2473BD8E0025CE47 /* LLResponderTextView.h */,
-				A078E39F2473BD8E0025CE47 /* LLResponderTextView.m */,
 				A078E39C2473BD790025CE47 /* LLUIKit.h */,
 				A078E39B2473BD790025CE47 /* LLUIKit.m */,
 				A078E3992473BD4A0025CE47 /* LLInputMoreCellData.h */,
 				A078E3982473BD4A0025CE47 /* LLInputMoreCellData.m */,
 				A078E3932473BD1D0025CE47 /* LLMenuCell.h */,
 				A078E3922473BD1D0025CE47 /* LLMenuCell.m */,
-				A078E3912473BD070025CE47 /* THeader.h */,
 				A078E38F2473BCED0025CE47 /* LLMoreView.h */,
 				A078E38E2473BCED0025CE47 /* LLMoreView.m */,
 				A078E38B2473BCDB0025CE47 /* LLMenuView.h */,
 				A078E38C2473BCDB0025CE47 /* LLMenuView.m */,
 				A078E3882473BCCA0025CE47 /* LLFaceView.h */,
 				A078E3892473BCCA0025CE47 /* LLFaceView.m */,
-				A078E3852473BCAD0025CE47 /* LLInputBar.h */,
-				A078E3862473BCAD0025CE47 /* LLInputBar.m */,
 			);
 			path = Keyboard;
 			sourceTree = "<group>";
@@ -388,6 +380,38 @@
 				A0BCADC92591CB3D00334B7C /* LLChatMessageImageData.m */,
 			);
 			path = Datas;
+			sourceTree = "<group>";
+		};
+		A0BCADE02591CC0800334B7C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A0BCADE42591CC2500334B7C /* TUIKitFace.bundle */,
+				A0BCADE52591CC2500334B7C /* TUIKitResource.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A0BCADEB2591CC4800334B7C /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				A0BCADF12591CC7700334B7C /* LLInputBar.h */,
+				A0BCADF02591CC7700334B7C /* LLInputBar.m */,
+				A0BCADEF2591CC7700334B7C /* LLResponderTextView.h */,
+				A0BCADF22591CC7700334B7C /* LLResponderTextView.m */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		A0BCADF82591CD1600334B7C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A0BCAE072591CDBA00334B7C /* LLImageCache.h */,
+				A0BCAE062591CDBA00334B7C /* LLImageCache.m */,
+				A0BCADFD2591CD8100334B7C /* LLHelper.h */,
+				A0BCADFE2591CD8100334B7C /* LLHelper.m */,
+				A0BCADF92591CD3000334B7C /* THeader.h */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,10 +522,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A078E3BB2473C30F0025CE47 /* TUIKitResource.bundle in Resources */,
+				A0BCADE62591CC2500334B7C /* TUIKitFace.bundle in Resources */,
 				A078E35C2473BC080025CE47 /* LaunchScreen.storyboard in Resources */,
-				A078E3BC2473C30F0025CE47 /* TUIKitFace.bundle in Resources */,
 				A078E3592473BC080025CE47 /* Assets.xcassets in Resources */,
+				A0BCADE72591CC2500334B7C /* TUIKitResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,16 +656,17 @@
 				A078E39A2473BD4B0025CE47 /* LLInputMoreCellData.m in Sources */,
 				A078E3A92473BE5D0025CE47 /* UIImage+TUIKIT.m in Sources */,
 				A078E3B52473BFD50025CE47 /* LLRecordView.m in Sources */,
+				A0BCAE082591CDBA00334B7C /* LLImageCache.m in Sources */,
 				A0BCADDC2591CB8800334B7C /* LLChatMessageImageCell.m in Sources */,
 				A0BCAD972591A6B400334B7C /* LLInputController.m in Sources */,
 				A078E3902473BCED0025CE47 /* LLMoreView.m in Sources */,
 				A0BCADBB2591CB0800334B7C /* LLChatMessageData.m in Sources */,
 				A078E38A2473BCCA0025CE47 /* LLFaceView.m in Sources */,
+				A0BCADF32591CC7700334B7C /* LLInputBar.m in Sources */,
 				A078E3542473BC040025CE47 /* ViewController.m in Sources */,
-				A078E3AC2473BE8F0025CE47 /* LLImageCache.m in Sources */,
 				A078E3942473BD1D0025CE47 /* LLMenuCell.m in Sources */,
 				A00BBCE12474BAEB00FC253F /* EMVoiceConverter.mm in Sources */,
-				A078E3B22473BF0F0025CE47 /* LLHelper.m in Sources */,
+				A0BCADFF2591CD8100334B7C /* LLHelper.m in Sources */,
 				A0BCADD32591CB7800334B7C /* LLChatMessageTextCell.m in Sources */,
 				A078E38D2473BCDB0025CE47 /* LLMenuView.m in Sources */,
 				A0BCADC42591CB2D00334B7C /* LLChatMessageTextData.m in Sources */,
@@ -650,12 +675,11 @@
 				A078E34E2473BC040025CE47 /* AppDelegate.m in Sources */,
 				A0BCADB12591CAC700334B7C /* LLChatMessageCell.m in Sources */,
 				A078E3A32473BDAB0025CE47 /* LLFaceCell.m in Sources */,
-				A078E3A02473BD8F0025CE47 /* LLResponderTextView.m in Sources */,
 				A0BCADA72591C68F00334B7C /* MessageUtil.m in Sources */,
 				A078E39D2473BD790025CE47 /* LLUIKit.m in Sources */,
-				A078E3872473BCAD0025CE47 /* LLInputBar.m in Sources */,
 				A0BCADCA2591CB3D00334B7C /* LLChatMessageImageData.m in Sources */,
 				A00BBCDF2474BAEB00FC253F /* wav.mm in Sources */,
+				A0BCADF42591CC7700334B7C /* LLResponderTextView.m in Sources */,
 				A078E35F2473BC080025CE47 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
